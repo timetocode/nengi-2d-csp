@@ -18,9 +18,7 @@ class GameInstance {
 
             // create a entity for this client
             const rawEntity = new PlayerCharacter()
-
-            this.instance.addEntity(rawEntity)
-
+    
             // make the raw entity only visible to this client
             const channel = new nengi.Channel(nengiConfig)
             this.instance.addChannel(channel)
