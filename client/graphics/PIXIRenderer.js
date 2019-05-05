@@ -1,3 +1,4 @@
+import * as PIXI from 'pixi.js'
 import PlayerCharacter from './PlayerCharacter'
 import BackgroundGrid from './BackgroundGrid'
 import Obstacle from './Obstacle'
@@ -10,7 +11,9 @@ class PIXIRenderer {
         this.myEntity = null
         this.entities = new Map()
 
-        this.renderer = PIXI.autoDetectRenderer(window.innerWidth, window.innerHeight, {
+        this.renderer = PIXI.autoDetectRenderer({
+            width: window.innerWidth, 
+            height: window.innerHeight, 
             view: this.canvas,
             antialiasing: false,
             transparent: false,

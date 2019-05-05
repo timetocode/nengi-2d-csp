@@ -1,3 +1,4 @@
+import * as PIXI from 'pixi.js'
 import HitpointBar from './HitpointBar'
 
 class PlayerCharacter extends PIXI.Container {

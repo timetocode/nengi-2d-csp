@@ -1,6 +1,7 @@
+import * as PIXI from 'pixi.js'
+
 class Obstacle extends PIXI.Container {
     constructor(entity) {
-        console.log('OBS ctor', entity)
         super()
         this.x = entity.x
         this.y = entity.y

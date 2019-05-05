@@ -19,7 +19,7 @@ npm start
 The game should look like this:
 ![nengi-2d-basic screenshot](./public/images/screenshot.png)
 
-The renderer is PIXI v4, though it is just a few primitive shapes..
+The renderer is PIXI v5, though it is just a few primitive shapes..
 
 The controls are
 - arrowkeys or...
