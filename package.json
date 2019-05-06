@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "nengi 2d example game with client-side prediction and lag compensation",
   "scripts": {
-    "start": "concurrently \"npx webpack-dev-server --config webpack.dev.js\" \"node ./server/index.js --ignore public/\"",
+    "start": "concurrently \"npx webpack-dev-server --config webpack.dev.js\" \"nodemon ./server/index.js --ignore public/\"",
     "build": "npx webpack --config webpack.prod.js"
   },
   "author": "timetocode // Alex",
