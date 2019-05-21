@@ -10,6 +10,8 @@ This is a game template demonstrating full suite of lag compensation techniques
 
 Predicted entities are drawn in white, and server-authoritative state is drawn in red.
 
+[feature demo on youtube](https://youtu.be/7WJnQh-QcUc)
+
 To run the game:
 ```sh
 npm install
