@@ -9,18 +9,18 @@
   "author": "timetocode // Alex",
   "license": "nengi license",
   "dependencies": {
-    "esm": "^3.2.22",
-    "nengi": "github:timetocode/nengi",
-    "pixi.js": "^5.0.0",
-    "sat": "^0.7.0"
+    "esm": "^3.2.25",
+    "nengi": "^1.9.0",
+    "pixi.js": "^5.1.5",
+    "sat": "^0.7.1"
   },
   "devDependencies": {
-    "concurrently": "^4.1.0",
-    "nodemon": "^1.19.1",
-    "terser-webpack-plugin": "^1.2.3",
-    "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.2",
-    "webpack-dev-server": "^3.3.1",
-    "webpack-merge": "^4.2.1"
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.3",
+    "terser-webpack-plugin": "^1.4.1",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2",
+    "webpack-merge": "^4.2.2"
   }
 }

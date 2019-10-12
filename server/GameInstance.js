@@ -20,8 +20,7 @@ class GameInstance {
             const rawEntity = new PlayerCharacter()
     
             // make the raw entity only visible to this client
-            const channel = new nengi.Channel(nengiConfig)
-            this.instance.addChannel(channel)
+            const channel = this.instance.createChannel()
             channel.subscribe(client)
             channel.addEntity(rawEntity)
             //this.instance.addEntity(rawEntity)
@@ -58,7 +57,7 @@ class GameInstance {
         this.instance.onDisconnect(client => {
             this.instance.removeEntity(client.rawEntity)
             this.instance.removeEntity(client.smoothEntity)
-            this.instance.removeChannel(client.channel)
+            client.channel.destroy()
         })
 
         // setup a few obstacles
