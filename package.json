@@ -15,7 +15,7 @@
     "sat": "^0.7.1"
   },
   "devDependencies": {
-    "concurrently": "^4.1.2",
+    "concurrently": "5.1.0",
     "nodemon": "^1.19.3",
     "terser-webpack-plugin": "^1.4.1",
     "webpack": "^4.41.1",
