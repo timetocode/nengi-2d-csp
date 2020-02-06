@@ -9,7 +9,7 @@
     "build": "npx webpack --config webpack.prod.js"
   },
   "author": "timetocode // Alex",
-  "license": "nengi license",
+  "license": "Apache 2.0",
   "dependencies": {
     "esm": "3.2.25",
     "nengi": "1.13.1",
